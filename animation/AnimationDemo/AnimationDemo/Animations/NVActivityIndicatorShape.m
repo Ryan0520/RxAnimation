@@ -24,13 +24,34 @@ static CGFloat const lineWidth = 2;
     {
         case NVActivityIndicatorShapeTypeCircle:
         {
-            [self.myPath addArcWithCenter:CGPointMake(size.width / 2, size.height / 2) radius:size.width / 2 startAngle:0 endAngle:(2 * M_PI) clockwise:NO];
+            [self.myPath addArcWithCenter:CGPointMake(size.width / 2, size.height / 2)
+                                   radius:size.width / 2
+                               startAngle:0
+                                 endAngle:(2 * M_PI)
+                                clockwise:NO];
+            
             self.layer.fillColor = color.CGColor;
         }
             break;
         case NVActivityIndicatorShapeTypeRing:
         {
-            [self.myPath addArcWithCenter:CGPointMake(size.width / 2, size.height / 2) radius:size.width / 2 startAngle:0 endAngle:(2 * M_PI) clockwise:NO];
+            [self.myPath addArcWithCenter:CGPointMake(size.width / 2, size.height / 2)
+                                   radius:size.width / 2
+                               startAngle:0
+                                 endAngle:(2 * M_PI)
+                                clockwise:NO];
+            self.layer.fillColor = nil;
+            self.layer.strokeColor = color.CGColor;
+            self.layer.lineWidth = lineWidth;
+        }
+            break;
+        case NVActivityIndicatorShapeTypeRingThirdFour:
+        {
+            [self.myPath addArcWithCenter:CGPointMake(size.width / 2, size.height / 2)
+                                   radius:size.width / 2
+                               startAngle: M_PI_4
+                                 endAngle:3 * M_PI_4
+                                clockwise:NO];
             self.layer.fillColor = nil;
             self.layer.strokeColor = color.CGColor;
             self.layer.lineWidth = lineWidth;

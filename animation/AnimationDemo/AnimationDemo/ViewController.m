@@ -57,7 +57,8 @@
     {
         _typeArray = @[@(NVActivityIndicatorTypeBallPulse),
                        @(NVActivityIndicatorTypeBallScaleMultiple),
-                       @(NVActivityIndicatorTypeBallSpinFadeLoader)];
+                       @(NVActivityIndicatorTypeBallSpinFadeLoader),
+                       @(NVActivityIndicatorTypeBallClipRotate)];
     }
     return _typeArray;
 }

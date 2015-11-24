@@ -11,6 +11,7 @@
 		941D913B1C01FFE100267701 /* NVActivityIndicatorShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 941D913A1C01FFE100267701 /* NVActivityIndicatorShape.m */; };
 		941D913F1C0201DA00267701 /* NVActivityIndicatorAnimationBallPulse.m in Sources */ = {isa = PBXBuildFile; fileRef = 941D913E1C0201DA00267701 /* NVActivityIndicatorAnimationBallPulse.m */; };
 		941D91421C020A1600267701 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.m in Sources */ = {isa = PBXBuildFile; fileRef = 941D91411C020A1600267701 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.m */; };
+		944179881C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 944179871C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.m */; };
 		94ECD3781C01A25D0064B4B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ECD3771C01A25D0064B4B6 /* main.m */; };
 		94ECD37B1C01A25E0064B4B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ECD37A1C01A25E0064B4B6 /* AppDelegate.m */; };
 		94ECD37E1C01A25E0064B4B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94ECD37D1C01A25E0064B4B6 /* ViewController.m */; };
@@ -49,6 +50,8 @@
 		941D913E1C0201DA00267701 /* NVActivityIndicatorAnimationBallPulse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVActivityIndicatorAnimationBallPulse.m; sourceTree = "<group>"; };
 		941D91401C020A1600267701 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVActivityIndicatorAnimationBallScaleRippleMultiple.h; sourceTree = "<group>"; };
 		941D91411C020A1600267701 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVActivityIndicatorAnimationBallScaleRippleMultiple.m; sourceTree = "<group>"; };
+		944179861C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVActivityIndicatorAnimationBallClipRotate.h; sourceTree = "<group>"; };
+		944179871C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVActivityIndicatorAnimationBallClipRotate.m; sourceTree = "<group>"; };
 		94ECD3731C01A25D0064B4B6 /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ECD3771C01A25D0064B4B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94ECD3791C01A25D0064B4B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				941D91411C020A1600267701 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.m */,
 				94F1B6C11C0359210053293C /* NVActivityIndicatorAnimationBallSpinFadeLoader.h */,
 				94F1B6C21C0359210053293C /* NVActivityIndicatorAnimationBallSpinFadeLoader.m */,
+				944179861C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.h */,
+				944179871C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				94ECD37B1C01A25E0064B4B6 /* AppDelegate.m in Sources */,
 				94F1B6C31C0359210053293C /* NVActivityIndicatorAnimationBallSpinFadeLoader.m in Sources */,
 				941D913B1C01FFE100267701 /* NVActivityIndicatorShape.m in Sources */,
+				944179881C04A70E0073299B /* NVActivityIndicatorAnimationBallClipRotate.m in Sources */,
 				94ECD3781C01A25D0064B4B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

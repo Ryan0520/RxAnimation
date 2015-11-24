@@ -11,6 +11,7 @@
 #import "NVActivityIndicatorAnimationBallPulse.h"
 #import "NVActivityIndicatorAnimationBallScaleRippleMultiple.h"
 #import "NVActivityIndicatorAnimationBallSpinFadeLoader.h"
+#import "NVActivityIndicatorAnimationBallClipRotate.h"
 
 #define DEFAULT_COLOR  [UIColor whiteColor]
 #define DEFAULT_SIZE    CGSizeMake(40, 40)
@@ -79,6 +80,11 @@
         case NVActivityIndicatorTypeBallSpinFadeLoader:
         {
             animation = [[NVActivityIndicatorAnimationBallSpinFadeLoader alloc] init];
+        }
+            break;
+        case NVActivityIndicatorTypeBallClipRotate:
+        {
+            animation = [[NVActivityIndicatorAnimationBallClipRotate alloc] init];
         }
             break;
         default:
